@@ -4,13 +4,41 @@
   переключая тему
 */
 
-:root.theme-light {
+.page.theme_light {
+
+  --font-family: "IBM Plex mono", sans-serif;
+  --background-image: url(../images/cover-image-light.png);
+  --background-color: #fff1f7;
+  --header-decor: #353430;
+  --header-decor-hover: rgb(53 52 48 / 0.5);
+  --title-text-color: #FFC2E6;
+  --accent-color: #FF8DCB;
+  --description-text-color: #353430;
+  --article-title-color: #353430; 
+  --article-text-color: #353430;
+  --link-shadow-color: #ff8dcb;
+  --display-rec: none;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+@media (prefers-color-scheme: light) {
+  :root 
+  {
+    --font-family: "IBM Plex mono", sans-serif;
+    --background-image: url(../images/cover-image-light.png);
+    --background-color: #000028;
+    --header-decor: #353430;
+    --header-decor-hover: rgb(53 52 48 / 0.5);
+    --title-text-color: #FFC2E6;
+    --accent-color: #FF8DCB;
+    --description-text-color: #353430;
+    --article-title-color: #353430; 
+    --article-text-color: #353430;
+    --link-shadow-color: #ff8dcb;
+    --display-rec: none;
+  }
+
 }
