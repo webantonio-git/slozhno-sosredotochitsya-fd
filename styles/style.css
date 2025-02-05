@@ -28,11 +28,11 @@
   align-items: center;
   justify-self: start;
   color: var(--title-text-color);
-  
+
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 82.5%;
   font-weight: 700;
-  text-shadow: 4px 4px 0 var(--accent-color);  
+  text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 .header__description {
@@ -142,7 +142,7 @@
   padding: 2px 13px 5px;
   text-align: center;
   border: 1px solid transparent;
-}  
+}
 
 .header__theme-menu-button:hover {
   border: 1px solid var(--header-decor-hover);
@@ -166,22 +166,17 @@
   padding-block-start: 60px;
 }
 
-.why { 
-  gap:20px;
+.why {
+  gap: 20px;
 }
-
 
 .content-section {
- display: grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: row;
- font-size: 18px;
+  font-size: 18px;
   line-height: 23.4px;
-
-
 }
-
-
 
 .article__title {
   grid-column: 1/2;
@@ -237,11 +232,10 @@
   outline: 1px solid var(--article-text-color);
 }
 
-.causes { 
-  padding-block-start: 80px;  
+.causes {
+  padding-block-start: 80px;
   gap: 20px;
 }
-
 
 .article__title-causes {
   grid-column: 1/2;
@@ -309,9 +303,8 @@
   grid-row: span 2;
 }
 
-
 .advices {
-  padding-block-start: 80px;  
+  padding-block-start: 80px;
   row-gap: 40px;
   column-gap: 20px;
 }
@@ -342,11 +335,10 @@
   grid-template-rows: min-content auto;
   grid-auto-flow: row;
   row-gap: 10px;
-
 }
 
 .article__title-advices {
-  grid-column: 1;  
+  grid-column: 1;
 }
 
 .article__content__title-advices {
@@ -372,13 +364,13 @@
   word-spacing: 0rem;
   line-height: 82.5%;
   font-weight: 700;
-  text-shadow: 2px 2px 0px var(--accent-color);  
-  color: var(--title-text-color);  
+  text-shadow: 2px 2px 0px var(--accent-color);
+  color: var(--title-text-color);
 }
 
 .footer__content {
   margin-inline-start: 20px;
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 
 @media (width<1024px) {
@@ -400,7 +392,7 @@
   }
 
   .header__theme-menu-list {
-    align-self: start;    
+    align-self: start;
     grid-auto-flow: row;
     align-items: start;
     justify-content: end;
@@ -415,7 +407,7 @@
   .header__dark-rec {
     inset-inline: 0;
     align-self: start;
-    margin-right:20px;    
+    margin-right: 20px;
   }
 
   .header__description {
@@ -432,7 +424,7 @@
   }
 
   .causes {
-    padding-inline-end: 20px;   
+    padding-inline-end: 20px;
     align-items: start;
   }
 
@@ -485,7 +477,7 @@
 }
 
 @media (width<768px) {
-  .page {    
+  .page {
     margin-inline-start: 0px;
     padding-inline-start: 0px;
     margin-block-start: 0px;
@@ -513,7 +505,6 @@
     padding-inline-end: 0px;
     padding-block-start: 10px;
   }
-
 
   .header__description {
     grid-template-columns: 1fr;
@@ -555,7 +546,6 @@
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
-
   .header__description-position {
     margin-bottom: 25px;
   }
@@ -578,8 +568,6 @@
     padding-inline-end: 0px;
     padding-block-start: 40px;
   }
-
-  
 
   .why {
     padding-block-start: 0px;
@@ -695,20 +683,20 @@
   }
 
   .article__title-advices {
-    grid-column: 1/4; 
+    grid-column: 1/4;
     padding-inline-start: 0px;
   }
 
   .advices {
-    padding-block-start: 50px;    
+    padding-block-start: 50px;
     padding-inline-end: 10px;
     row-gap: 20px;
   }
 
   .article__title-advices {
-    grid-column: 1/4;  
+    grid-column: 1/4;
     padding-inline-start: 10px;
-   }
+  }
 
   .article__content_advices {
     grid-column: 1/4;
@@ -716,26 +704,25 @@
   }
 
   .article__content_advices-ask {
-    grid-column: 3/4;   
+    grid-column: 3/4;
     margin-inline-start: 0px;
   }
 
   .footer {
-    margin-block-start: 40px;    
-    padding: 10px;    
+    margin-block-start: 40px;
+    padding: 10px;
     min-height: 668px;
-    height: 100vh;   
+    height: 100vh;
   }
 
-
   .footer__content {
-    padding: 0px;    
+    padding: 0px;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-   }
+  }
 }
 
 @media (width>1024px) {
-  .header { 
+  .header {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     max-inline-size: 100%;
