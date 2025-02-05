@@ -716,7 +716,7 @@
   }
 
   .article__content_advices-ask {
-   
+    grid-column: 3/4;   
     margin-inline-start: 0px;
   }
 
